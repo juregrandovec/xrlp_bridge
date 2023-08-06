@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "your_database_username",
+  "password": "your_database_password",
+  "database": "xrpl_bridge_db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
